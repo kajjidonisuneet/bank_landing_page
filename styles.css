@@ -46,6 +46,7 @@ header {
 
 .intro-content-box{
     text-align: center;
+    margin-top: 100px;
 }
 
 .main-heading {
@@ -170,18 +171,12 @@ header {
 }
 
 .background-intro-image-div {
-    height: 300px; /*why its not taking % values*/
-    background-image: url("images/bg-intro-mobile.svg");
-    background-size: cover;
-    background-position:center;
-}
-
-.background-intro-image{
     position: relative;
-    top:30%;
-    left: 30%;
-    object-fit: cover;
-    /* where to give the Z index and size of the image */
+    top: 50px;
+    height: 310px; /*why its not taking % values*/
+    background-image: url('images/image-mockups.png'), url("images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-position:bottom, center;
 }
 
 footer {
@@ -220,7 +215,7 @@ footer {
 }
 
 
-/* desktop style*/
+/* desktop style */
 @media (min-width: 376px) {
 
     .nav-mobile-flex-box{
@@ -248,31 +243,28 @@ footer {
 
     .intro-box {
         display: flex;
+        flex-direction: row-reverse;
         background-image: url('images/bg-intro-desktop.svg');
         background-repeat: no-repeat;
-        background-position-x: 120%;
+        background-position-x: 150%;
         background-position-y: 60%;
         background-size: 60%;
+        height: 700px;
     }
 
     .intro-content-box
     {
-        order: 1;
         margin: 10%;
         text-align: left;
-        width: 50%;
+        flex: 1;
     }
 
     .background-intro-image-div{
-        order: 2;
-        width: 50%;
-        height: 250px;
-        background-image: none;
-    }
-
-    .background-intro-image {
-        max-width: 120%;
-        margin: 0;
+        flex: 1;
+        height: 120%;
+        background-image: url('images/image-mockups.png');
+        background-repeat: no-repeat;
+        top:0px;
     }
 
     .main-heading{
@@ -417,22 +409,9 @@ footer {
 
     .SVG-logo:hover{
         fill: var(--LimeGreen);
-        }
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .attribution {
