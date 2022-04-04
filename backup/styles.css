@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --DarkBlue: hsl(233, 26%, 24%);
+    --LimeGreen:hsl(136, 65%, 51%);
+    --BrightCyan: hsl(192, 70%, 51%);
+
+    --GrayishBlue: hsl(233, 8%, 62%);
+    --LightGrayishBlue: hsl(220, 16%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+  }
+
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.top-nav-bar {
+    background-color: var(--LightGrayishBlue);
+}
+
+.nav-mobile-flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo-mobile, .hamburger-icon {
+    margin: 5%;
+}
+
+.intro-content-box{
+    text-align: center;
+}
+
+.main-heading {
+    font-weight: 400;
+    font-size: 2em;
+    color:var(--DarkBlue);
+    margin:8%;
+}
+
+.main-description {
+    margin: 8%;
+    font-size: 0.9em;
+    color:var(--DarkBlue);
+    line-height: 1.5em;
+}
+
+.request-invite{
+    font-weight: 600;
+    color:var(--White);
+    font-size: 0.8em;
+    background-image: linear-gradient(to right, var(--LimeGreen),var(--BrightCyan));
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 2em;
+    padding: 1.2em 2em;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.feature-main-box{
+    text-align: center;
+    background-color: var(--LightGrayishBlue);
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.feature-heading-text{
+    font-weight: 400;
+    font-size: 2em;
+    color:var(--DarkBlue);
+}
+
+.feature-main-description-text {
+    font-size: 0.9em;
+    color:var(--GrayishBlue);
+    line-height: 1.7em;
+    margin: 8%;
+}
+
+
+.feature-text{
+    font-weight: 400;
+    font-size: 1.1em;
+    color:var(--DarkBlue);
+    margin: 5%;
+}
+
+.feature-description-text {
+    font-size: 0.9em;
+    color:var(--GrayishBlue);
+    line-height: 1.7em;
+    padding: 0 5% 10% 5%;
+
+}
+
+.article-main-box{
+    text-align: center;
+    background-color: var(--VeryLightGray);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.article-main-heading-text{
+    margin-bottom: 10%;
+    font-weight: 400;
+    font-size: 2em;
+    color:var(--DarkBlue);
+}
+
+.article-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.article-box {
+    max-width:85%;
+    margin: 10% auto;
+    border-radius: 5%;
+    background-color: var(--White);
+    padding-bottom: 5%;
+}
+
+.article-text-box{
+    text-align: left;
+    margin: 8% 8%;
+}
+
+.article-author-name{
+    font-size: 0.7em;
+    color:var(--GrayishBlue);
+    margin-bottom: 5%;
+}
+
+.article-heading-text{
+    font-size: 1em;
+    color:var(--DarkBlue);
+    text-decoration: none;
+    margin-bottom: 5%;
+    display: block;
+}
+
+.article-text{
+    font-size: 0.9em;
+    color:var(--GrayishBlue);
+    margin-bottom: 10%;
+}
+
+.nav-desktop-flex-box {
+    display: none;
+}
+
+.background-intro-image-div {
+    height: 300px; /*why its not taking % values*/
+    background-image: url("images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-position:center;
+}
+
+.background-intro-image{
+    margin: 5%;
+    max-width: 90%;
+    object-fit: fill;
+    object-position: bottom;
+}
+
+footer {
+    background-color: var(--DarkBlue);
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.footer-logo {
+    margin-bottom: 8%;
+}
+
+.footer-icon-box {
+    margin-bottom: 8%;
+}
+
+.footer-link {
+    display: block;
+    color:var(--White);
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.copy-write-text{
+    color: var(--White);
+    font-size: 0.6em;
+}
+
+.footer-request-box .request-invite{
+    margin-bottom: 5%;
+}
+
+.SM-logo{
+    margin: 0 5px;
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
