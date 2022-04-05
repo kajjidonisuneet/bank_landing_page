@@ -44,6 +44,36 @@ header {
     margin: 5%;
 }
 
+.nav-background {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 55px;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.nav-mobile-links-box{
+    border-radius: 10px;
+    width: 87%;
+    margin: auto;
+    padding:5%;
+    background-color: var(--LightGrayishBlue);
+    position: relative;
+    top: 20px;
+}
+
+
+.nav-links{
+    font-size: 0.9em;
+    color:var(--DarkBlue);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
 .intro-content-box{
     text-align: center;
     margin-top: 100px;
@@ -217,6 +247,10 @@ footer {
 
 /* desktop style */
 @media (min-width: 376px) {
+
+    .nav-mobile-links-box{
+        display: none;
+    }
 
     .nav-mobile-flex-box{
         display: none;
