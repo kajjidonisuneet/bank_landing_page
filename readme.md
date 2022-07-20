@@ -15,4 +15,4 @@ Mobile Design.<br>
 
 
 ## Acknowledgments
-Design and other information refered from <a href='https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN>Frontend Mentor</a>.
+Design and other information refered from <a href='https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN'>Frontend Mentor</a>.
