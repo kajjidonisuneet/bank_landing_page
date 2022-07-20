@@ -246,7 +246,7 @@ footer {
 
 
 /* desktop style */
-@media (min-width: 376px) {
+@media (min-width: 451px) {
 
     .nav-mobile-links-box{
         display: none;
